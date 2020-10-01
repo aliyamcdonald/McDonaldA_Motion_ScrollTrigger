@@ -1,0 +1,39 @@
+/* =============
+    Section 4
+============= */
+#section-4{
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". section-4 .";
+    padding: 43px 0px;
+    text-align: center;
+    color: $green;
+    
+    #section-4-content{
+        grid-area: section-4;
+    }
+
+    @include md{
+        grid-template-columns: auto 70% auto;
+    }
+
+    @include xl{
+        grid-template-columns: auto 650px auto;
+    }
+
+    >div{
+        grid-area: section-4
+
+        hr{
+            border: none;
+            height: 3px
+        
+        }
+    }
+    
+    hr {
+        border-color: $orange;
+        border-style: solid;
+        border-width: 2px;
+    }
+}

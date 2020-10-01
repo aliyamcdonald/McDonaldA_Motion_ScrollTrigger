@@ -1,0 +1,57 @@
+/* =============
+    Section 5
+============= */
+#section-5{
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";  
+    }
+
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat(3, 335px);
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340);
+            grid-template-areas:
+            "sheep sheep"
+            "sheep sheep"
+            "deer rabbit";
+        }
+
+        @include xl{
+            grid-area: section-5;
+        }
+
+        li{
+            background-position: conter;
+            background-size: cover;
+        }
+            
+        #sheep{
+            background-image: url("../img/section-5/sheep.jpg") ;
+            @include md{
+                grid-area: sheep;
+                background-position: center top;
+            }
+        }
+
+        #deer{
+            background-image: url("../img/section-5/deer.jpg") ;
+            @include md{
+                grid-area: deer;
+            }
+        }
+
+        #rabbit{
+            background-image: url("../img/section-5/rabbit.jpg") ;
+            @include md{
+                grid-area: rabbit;
+            }
+        }
+    }
+}

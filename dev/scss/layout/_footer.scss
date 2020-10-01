@@ -1,0 +1,17 @@
+/* =============
+    Footer
+============= */
+footer{
+    background-color: $green;
+    padding: 30px;
+    text-align: right;
+    color: $white;
+    position: relative;
+
+    p{
+        position: absolute;
+        right: 20px;
+        bottom: 8px;
+    }
+
+}

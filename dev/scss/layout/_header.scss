@@ -1,0 +1,56 @@
+/* =============
+    Header
+============= */
+header {
+    background-color: $white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: $green;
+
+    >div {
+        display: grid;
+        grid-template-areas: "logo burger"
+                            "nav nav";
+        grid-template-columns: 80% auto;
+ 
+        section,
+        nav {
+            padding: 20px;
+        }
+
+        #logo-container {
+            grid-area: logo;
+            
+        }
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            justify-content: flex-end;
+
+            @include lg {
+                display: none !important;
+            }
+            i {
+                cursor: pointer;
+                color: $green;
+            }
+        }
+
+        #nav-container {
+            background-color: $light-grey;
+            grid-area: nav;
+            display: none;
+            padding: 20px;
+
+            @include lg {
+                display: block !important;
+            }
+        }
+
+
+    }
+}
+
