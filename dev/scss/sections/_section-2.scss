@@ -4,6 +4,7 @@
 #section-2{
     padding-bottom: 5 px;
     padding-top: 5 px;  
+    
 
 
     @include xl{
@@ -24,9 +25,10 @@
             grid-area: section-2-container; 
         }
         aside{
+            overflow: hidden;
             background-image: url('../img/section-2/Blarney_Castle.jpg');
             background-size: cover;
-            height: 480px;
+            height: 100%;
     
             @include md{
                 grid-area: section-2-image;

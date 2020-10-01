@@ -484,9 +484,10 @@ footer {
     #section-2 #section-2-container {
       grid-area: section-2-container; } }
   #section-2 #section-2-container aside {
+    overflow: hidden;
     background-image: url("../img/section-2/Blarney_Castle.jpg");
     background-size: cover;
-    height: 480px; }
+    height: 100%; }
     @media (min-width: 768px) {
       #section-2 #section-2-container aside {
         grid-area: section-2-image;
@@ -512,17 +513,20 @@ footer {
 /* =============
     Section 3
 ============= */
-#section-3 {
+#section-3 > div {
   background-image: url("../img/section-3/Inside_A_Bar.jpg");
   background-position: center;
   background-size: cover;
   height: 510px; }
-  @media (min-width: 768px) {
-    #section-3 {
-      height: 520px; } }
-  @media (min-width: 992px) {
-    #section-3 {
-      height: 680px; } }
+
+@media (min-width: 768px) {
+  #section-3 {
+    height: 520px; } }
+
+@media (min-width: 992px) {
+  #section-3 {
+    height: 680px; } }
+
 /* =============
     Section 4
 ============= */
