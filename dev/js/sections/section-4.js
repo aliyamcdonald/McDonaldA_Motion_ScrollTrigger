@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section4TL = gsap.timeline();
 
-section2TL.from("section-4-content",{duration: 0.5, alpha:0, x: -300})
+section4TL.from("section-4-content",{duration: 0.5, alpha:0, x: -300})
         
 
 
