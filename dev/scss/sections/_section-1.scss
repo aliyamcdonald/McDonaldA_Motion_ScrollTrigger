@@ -2,19 +2,18 @@
     Section 1
 ============= */
 #section-1 {
-    background-image: url('../img/section-1/Cliff_In_Ireland.jpg');
-    background-position: center;
-    background-size: cover;
-    color: $green;
-    padding: 200px;
-
+    overflow: hidden;
+    height: 360px;
+   
     @include md {
         height: 510px;
     }
 
-    @include lg {
-        height: 680px;
+    >div{
+        background-image: url('../img/section-1/Cliff_In_Ireland.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100%;
     }
-    
 
 }

@@ -20,3 +20,10 @@ function mouseClick(){
 $burger.on( "click", mouseClick);
 // close the mobile menu when menu link is clicked
 $navA.on( "click", mouseClick);
+
+import {gsap} from "gsap";
+
+import {section1Animation} from "./section-1.js"
+
+// call section1 animation function
+section1Animation();

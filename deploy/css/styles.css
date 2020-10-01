@@ -452,17 +452,17 @@ footer {
     Section 1
 ============= */
 #section-1 {
-  background-image: url("../img/section-1/Cliff_In_Ireland.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #0F790F;
-  padding: 200px; }
+  overflow: hidden;
+  height: 360px; }
   @media (min-width: 768px) {
     #section-1 {
       height: 510px; } }
-  @media (min-width: 992px) {
-    #section-1 {
-      height: 680px; } }
+  #section-1 > div {
+    background-image: url("../img/section-1/Cliff_In_Ireland.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%; }
+
 /* =============
     Section 2
 ============= */
