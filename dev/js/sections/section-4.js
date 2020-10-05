@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section4TL = gsap.timeline();
 
-section4TL.from("section-4-content",{duration: 0.5, alpha:0, x: -300})
+section4TL.from("#section-4",{duration: 0.5, alpha:0, x: -300})
         
 
 
@@ -17,7 +17,7 @@ export function section4Animation(){
          toggleActions: "restart none reverse none",
          trigger: "#section-4",
          scrub: 1,
-         start:"top, 50%",
-         end: "bottom 50%"
+         start:"top, 70%",
+         end: "bottom 70%"
     });
 }
