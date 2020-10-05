@@ -8,6 +8,7 @@ header {
     top: 0;
     width: 100%;
     color: $green;
+    z-index: 1000;
 
     >div {
         display: grid;

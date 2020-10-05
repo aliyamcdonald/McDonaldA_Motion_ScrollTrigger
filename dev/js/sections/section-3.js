@@ -11,10 +11,10 @@ section3TL.from("#section-3 div",{duration: 0.5, alpha:0, x: -300})
 export function section3Animation(){
     ScrollTrigger.create({
 
-        markers: true,
+        // markers: true,
         animation: section3TL,
         toggleActions: "restart none reverse none",
-        trigger: "section-3",
+        trigger: "#section-3",
         scrub: 1,
         start:"top, 70%",
         end: "bottom 70%"

@@ -15,7 +15,7 @@ export function section4Animation(){
          // markers: true,
          animation: section4TL,
          toggleActions: "restart none reverse none",
-         trigger: "section-4",
+         trigger: "#section-4",
          scrub: 1,
          start:"top, 50%",
          end: "bottom 50%"

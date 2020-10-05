@@ -146,7 +146,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
@@ -217,6 +217,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/sections/section-4-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-6.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-6-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -525,6 +536,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

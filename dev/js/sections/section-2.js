@@ -15,9 +15,10 @@ export function section2Animation(){
         markers: true,
         animation: section2TL,
         toggleActions: "play none none none",
-        trigger: "section-2",
+        trigger: "#section-2",
         start:"top, 50%",
-        end: "bottom 50%"
+        end: "bottom 50%",
+        id:"section-2"
 
     });
 }
